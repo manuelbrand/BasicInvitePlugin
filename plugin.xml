@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="com.manuel.cordova.inviteplugin"
+    id="cordova-facebook-invite"
     version="0.1.0">
 
     <name>InvitePlugin</name>
@@ -14,7 +14,7 @@
         <engine name="cordova-ios" version=">=4.0.0-dev" />
     </engines>
 
-    <js-module src="InvitePlugin.js" name="InvitePlugin">
+    <js-module src="www/InvitePlugin.js" name="InvitePlugin">
         <clobbers target="InvitePlugin" />
     </js-module>
 
