@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="com.neophob.cordova.core.wurst"
+    id="com.manuel.cordova.inviteplugin"
     version="0.1.0">
 
     <name>InvitePlugin</name>
@@ -28,7 +28,7 @@
             <access origin="https://*.akamaihd.net" />
         </config-file>
 
-        <source-file src="src/android/InvitePlugin.java" />
+        <source-file src="src/android/InvitePlugin.java" target-dir="src/android/"/>
 
     </platform>
 
