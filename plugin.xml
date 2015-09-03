@@ -14,7 +14,7 @@
         <engine name="cordova-ios" version=">=4.0.0-dev" />
     </engines>
 
-    <js-module src="www/InvitePlugin.js" name="InvitePlugin">
+    <js-module src="InvitePlugin.js" name="InvitePlugin">
         <clobbers target="InvitePlugin" />
     </js-module>
 
@@ -23,7 +23,7 @@
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="InvitePlugin">
-                <param name="android-package" value="com.wazzurb.manuel.InvitePlugin"/>
+                <param name="android-package" value="wazzurb-facebook-invite.InvitePlugin"/>
             </feature>
             <access origin="https://m.facebook.com" />
             <access origin="https://graph.facebook.com" />
