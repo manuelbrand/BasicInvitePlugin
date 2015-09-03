@@ -1,0 +1,1 @@
+Cordova Facebook Invite Plugin

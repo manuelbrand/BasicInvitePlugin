@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="com.neophob.cordova.core.wurst"
+    version="0.1.0">
+
+    <name>InvitePlugin</name>
+    <description>Facebook AppInvite Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,plugin,facebook,invite</keywords>
+
+    <js-module src="www/InvitePlugin.js" name="InvitePlugin">
+        <clobbers target="InvitePlugin" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+
+        <config-file target="config.xml" parent="/*">
+            <feature name="InvitePlugin">
+                <param name="android-package" value="InvitePlugin"/>
+                <param name="onload" value="true" />
+            </feature>
+            <access origin="https://m.facebook.com" />
+            <access origin="https://graph.facebook.com" />
+            <access origin="https://api.facebook.com" />
+            <access origin="https://*.fbcdn.net" />
+            <access origin="https://*.akamaihd.net" />
+        </config-file>
+
+        <source-file src="src/android/InvitePlugin.java" />
+
+    </platform>
+
+    <!-- ios -->
+
+
+</plugin>
