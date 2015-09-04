@@ -1,4 +1,4 @@
-package android;
+package com.wazzurb.invite;
 
 import android.app.Activity;
 import android.os.Bundle;
