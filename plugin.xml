@@ -23,7 +23,7 @@
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="InvitePlugin">
-                <param name="android-package" value="android.InvitePlugin"/>
+                <param name="android-package" value="com.wazzurb.invite.InvitePlugin"/>
             </feature>
             <access origin="https://m.facebook.com" />
             <access origin="https://graph.facebook.com" />
