@@ -11,7 +11,7 @@ import org.apache.cordova.*;
 import org.json.JSONArray;
 import org.json.JSONException;
 
-// TODO: PLUGIN SHOULD HANDLE: pause(), resume() and msg passing ( maybe onReset() )
+// TODO: PLUGIN SHOULD HANDLE: pause(), resume() and msg passing ( and possibly onReset() )
 
 
 public class InvitePlugin extends CordovaPlugin {

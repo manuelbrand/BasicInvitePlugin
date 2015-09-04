@@ -6,7 +6,6 @@ var InvitePlugin = {
 
     sendInvite: function () {
         exec(function(){}, function(){}, "InvitePlugin", "invite", []);
-
         console.log("js function procced");
     }
 };

@@ -37,6 +37,21 @@
     </platform>
 
     <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="InvitePlugin">
+                <param name="ios-package" value="InvitePlugin"/>
+            </feature>
+            <access origin="https://m.facebook.com" />
+            <access origin="https://graph.facebook.com" />
+            <access origin="https://api.facebook.com" />
+            <access origin="https://*.fbcdn.net" />
+            <access origin="https://*.akamaihd.net" />
+        </config-file>
 
+        <header-file src="src/ios/InvitePlugin.h" target-dir="InvitePlugin"/>
+        <source-file src="src/ios/InvitePlugin.m" target-dir="InvitePlugin"/>
+
+    </platform>
 
 </plugin>
