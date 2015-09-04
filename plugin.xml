@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="cordova-facebook-invite"
-    version="0.1.0">
+        id="cordova-facebook-invite"
+        version="0.1.0">
 
     <name>InvitePlugin</name>
     <description>Facebook AppInvite Plugin</description>
@@ -23,7 +23,7 @@
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="InvitePlugin">
-                <param name="android-package" value="InvitePlugin"/>
+                <param name="android-package" value="android.InvitePlugin"/>
             </feature>
             <access origin="https://m.facebook.com" />
             <access origin="https://graph.facebook.com" />
