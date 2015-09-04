@@ -23,7 +23,7 @@
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="InvitePlugin">
-                <param name="android-package" value="src.android.InvitePlugin"/>
+                <param name="android-package" value="android.InvitePlugin"/>
             </feature>
             <access origin="https://m.facebook.com" />
             <access origin="https://graph.facebook.com" />
@@ -32,7 +32,7 @@
             <access origin="https://*.akamaihd.net" />
         </config-file>
 
-        <source-file src="src/android/InvitePlugin.java" target-dir="src/android"/>
+        <source-file src="src/android/InvitePlugin.java" target-dir="android"/>
 
     </platform>
 
